@@ -1,0 +1,24 @@
+body{
+    line-height: 2.880;
+}
+
+.navbar-header {
+    float: left;
+    padding: 0px;
+    text-align: center;
+    width: 100%;
+}
+.navbar-brand {float:none;}
+
+
+.portfolio {
+    padding: 0px !important;
+  }
+  .portfolio img {
+    height: auto;
+    width: 100%;
+  }
+  @media (min-width: 481px)  { .portfolio img { width: 50%; } }
+  @media (min-width: 768px)  { .portfolio img { width: 33.33%; } }
+  @media (min-width: 992px)  { .portfolio img { width: 25%; } }
+  @media (min-width: 1200px) { .portfolio img { width: 20%; } }
